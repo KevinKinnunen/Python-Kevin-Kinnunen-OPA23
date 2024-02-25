@@ -1,4 +1,4 @@
-# Project Setup
+# Project Setup, labb med jupyter notebook och numpy
 
 ## Virtual Environment
 - Create a virtual environment using the following command:
@@ -24,6 +24,12 @@ python -m pip install -u-upgrade pip
 - Install Jupyter Notebook:
 ```bash
 python -m pip install jupyter
+```
+
+## Matplotlib
+- Install Matplotlib: 
+```bash
+python -m pip install matplotlib
 ```
 
 ## NumPy
