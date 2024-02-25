@@ -19,7 +19,7 @@ deactivate
 ## Jupyter Notebook
 - Upgrade pip to the latest version:
 ```bash
-python -m pip install -u-upgrade pip
+python -m pip install --upgrade pip
 ```
 - Install Jupyter Notebook:
 ```bash
