@@ -45,7 +45,7 @@ def plot_points(pichu_points, pikachu_points):
 
 plot_points(pichu_points, pikachu_points)
 
-# Read the test points for evaluation of the classifications algorithm's performance (used oor testing the performance by using test_points.txt)
+# Read the test points for evaluation of the classifications algorithm's performance (used for testing the performance by using test_points.txt)
 def read_test_points(filename):
     with open(filename, 'r') as file:
         test_points = [tuple(map(float, line.strip().split(','))) for line in file]
